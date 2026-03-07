@@ -1,3 +1,6 @@
+// https://atcoder.jp/contests/dp/tasks/dp_b
+// Solved on 04.03.26
+
 #include<bits/stdc++.h>
 using namespace std;
 
