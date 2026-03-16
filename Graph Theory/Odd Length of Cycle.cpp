@@ -18,7 +18,7 @@ void dfs(int u) {
 		}
 		else {
 			if(color[v] == color[u])
-				odd_length = false;
+				odd_length = true;
 		}
 	}
 }
@@ -31,7 +31,7 @@ void solve() {
     	graph[v].push_back(u);
     }
 
-    odd_length = true;
+    odd_length = false;
     //For Disconnected Graph
     for(int i = 1; i <= n; i++) {
     	if(!vis[i])
