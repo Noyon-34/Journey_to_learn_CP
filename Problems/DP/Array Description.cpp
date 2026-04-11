@@ -1,3 +1,6 @@
+// https://cses.fi/problemset/task/1746
+// Solved on 10.04.26
+
 #include<bits/stdc++.h>
 using namespace std;
 
